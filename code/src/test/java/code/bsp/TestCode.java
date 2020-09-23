@@ -51,9 +51,9 @@ public class TestCode
 
     }
     
-@Test(priority=2, description="insert valid details and Validate Sign up")
+         @Test(priority=3, description="insert valid details and Validate Sign up")
     
-    public void insertvaliddetails() throws IOException, InterruptedException 
+         public void insertvaliddetails() throws IOException, InterruptedException 
     {
 	
 	    driver.findElement(By.id("name")).sendKeys("Bishnu");
@@ -64,6 +64,11 @@ public class TestCode
 	    
 	
     }
+         
+         
+
+
+
     
     
     
